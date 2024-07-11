@@ -4,7 +4,7 @@ import type { TextScrollOption, TextScrollPulginOption, ElState } from '../index
 function handleTextScroll(el: any, binding: DirectiveBinding<TextScrollOption>) {
     const { value } = binding;
     const {
-        direction = 'horizontal',
+        direction = 'x',
         speed,
         duration,
         iterations = Infinity,
